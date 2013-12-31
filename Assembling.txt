@@ -1,0 +1,120 @@
+Soldering together the adapter board
+	This is the simpler of the two boards. Let's start there.
+	
+	All parts will go on this board on the side opposite the "LTAR DISP. ADAPTER" text.
+	
+	Put the RJ-11 jack and 6-pin programming header on, and solder them in.
+	
+	Next comes the headphone cable. We'll need to assemble this, as nobody supplies a female-ended cable of the proper type.
+	Take the male-ended cable, and cut off the cable a foot or two from the bare end. Throw the now-shortened male-ended cable in your parts bin.
+	See the pictures ( INSIDE-FEMALE-JACK.JPG ) and ( HEADPHONE-PCB-CONNECTIONS.JPG ) for how to solder together your new female-ended cable and attach it to the PCB.
+	
+	Solder a pair of wires to the two power connections labeled "+" and "-". Leave yourself at least a foot of wire to work with on each.
+	
+	Give the board a good look for shorts. If you find any, clean them up!
+	
+Soldering together the display module
+	This board is the fun one...
+	
+	Parts go on both sides of this board. The side with the "ZZLT LTAR DISPLAY" is the "top" side, which will be facing you when installed on the tagger.
+	
+	If you've never soldered surface-mount components before, go read http://bneven.com/tutor1.html for a tutorial on how to do it.
+	
+	Start with the processor, which is labeled U$1 on the PCB, and is on the "bottom" side. This is the Z8F1680 in your box of parts.
+	Orient the chip so that the text faces up, and the dot in one corner matches the dot on the silkscreen of the board.
+	This is the most difficult part, and likely where the most problems will come from.
+	Take your time and make sure everything is soldered on properly.
+	Once you get that done, you're probably ready for a break.
+	
+	Let's do some resistors next. These are nice because they're not polarized, meaning the orientation doesn't matter.
+	R3, R12, R15 and R17 are all 10k resistors, and should be done in that order.
+	R7 is next, and is a 6k(Or 5.9k, as I believe is in the parts list) resistor.
+	R8 is a 100 Ohm resistor.
+	
+	And just for a change of pace, let's do a capacitor next.
+	C5 is a 1uF capacitor. This one will probably be tricky because of it's proximity to R8, but just keep trying, you'll get it.
+	
+	Let's do U$2 next. This is a pair of op-amps in a single IC, and is the "926-LPV358M/NOPB" in your box of parts.
+	This part is annoyingly non-standard in it's marking, and has a "stripe" on one end of the top, which marks the end with pin 1.
+	Match this end up with the  end of the silkscreen with a "notch" in it.
+	
+	And back to resistors and capacitors!
+	R6 is a 15k resistor.
+	R5 and R4 are a 100k resistors.
+	
+	C2 is a 1uF capacitor.
+	C3 is the 0.1uF capacitor.
+	
+	R2 is a 133 ohm resistor.
+	
+	And we're done with the bottom side of the board! That wasn't too bad, was it? On to the top side!
+	
+	IC1 is a voltage regulator, and will only fit on the pads one way. It is part number "579-MCP1754T-3302ECB".
+	
+	C1 and C4 are both 1uF capacitors.
+	
+	LED1 through LED8 are polarized! This means it matters which direction they go!
+	The part number you want is "720-LOR976-PS-1".
+	Grab your multimeter, and put it in diode test mode. Typically the symbol for this is an arrow with a line after it.
+	Pull out an LED, and put your multimeter leads on either end of it. It should light up in one orientation.
+	If your multimeter is set up properly with a black lead on ground/common, and a red lead on the other, the side of the LED with the red lead is the positive side.
+	The positive side of the LED goes on the left(With the "ZZLT LTAR DISPLAY" text being on the right)!
+	Solder all of these on, double-checking the orientation of each LED.
+	
+	R1 is a 133 ohm resistor.
+	
+	S2 is the pushbutton switch, and is non-polarized.
+	
+	LED10 through LED12 are all also polarized. Their part number is "720-LYR976-PS-36".
+	Repeat the multimeter diode test to determine their polarity.
+	This time, the positive side goes down!
+	
+	And last, but not least, is the only through-hole part on this board.
+	Push it into the board so that the connector sticks out from the "bottom" of the board, and solder it into place.
+	
+	Give the board a good look for shorts. If you find any, clean them up!
+
+Now that you have the two PCBs assembled, take apart your LTAR.
+
+Make sure you take the batteries out!
+
+Now we need to figure out where you're going to mount the adapter PCB inside the tagger.
+You'll be taking the headphone cable that normally goes out to the iPod cable, and routing it inside the tagger to connect to the female-ended headphone cable on the adapter board.
+Make sure that the two cables will be able to reach, then rearrange stuff to make them connect and not get in the way of closing the tagger.
+Now we need to get power connected to the adapter board.
+See the picture ( POWER-TAP.JPG ) for where to get power.
+Cut your wires to length, route them around things as needed, and solder your power wires to the spots shown in the previous picture.
+
+Now we need to attach the display module to your iron-sight attachment.
+
+Dissassemble the iron-sight attachment.
+Position the assembled display module as shown in ( DISPLAY-MODULE-ATTACHMENT.JPG ) , and mark where the connector touches the iron sight attachment.
+Grab a dremel, Exacto knife, or sharp cutters, and cut out a rectangle that is half the width and the entire height of the display module's connector.
+Put the two halves of the iron sight attachment back together, and mark where the hole is on the other side.
+Take the two halves apart and repeat the cutting procedure on the second half.
+You should now be able to put the display module into one half, and put the other half over the top of it, and get the two halves to fit back together.
+If not, cut a bit more out of the hole the display module fits into, and try again.
+Once you get a satisfactory fit, reassemble the iron sight attachment with the display module attached.
+
+Now we need to make the cable to go between the two halves.
+
+Grab your 6-conductor cable, and run it through the hole on the top of the LTAR that the headphone cable used to go through, then down to the adapter PCB.
+Leave yourself an extra inch or two on that end.
+On the other end, after it comes through the hole, run it back to the rear-most point of the tagger, and leave yourself an extra inch or two.
+Cut this length of cable off the roll, and grab your ends and crimp tool.
+Strip back the end of the cable (A good crimp tool will have a nice stripper/cutter on it that does both at the same time).
+Push the conductors of the cable into the connector.
+With the tab of the connector facing away from you, you should be able to see the colors on the individual wires.
+The order of the colors doesn't really matter, but they do need to be in the same order on both ends!
+Once you get the colors in the same order, press them as far into the connector as they'll go, put it into the crimp tool, and squeeze until it doesn't squeeze any more.
+Once you get both ends crimped, connect one end to the adapter board.
+Don't connect the other end yet.
+
+Now comes the smoke test. Read this entire section carefully before doing anything in it.
+Put batteries into the tagger. Don't turn it on, just put the batteries in.
+Carefully feel around on the adapter board and the LTAR's PCB.
+If anything is getting warm or hot, pull the batteries immediately! Go over all of your solder joints again, and make sure everything is where it's supposed to be.
+If nothing is getting warm after 20-30 seconds, pull the batteries out, and connect the other end of the cable to the display module.
+Put the batteries in again, and feel around for warmth again, including the display module PCB this time.
+
+Nothing getting warm? Good! Assembly complete! Move on to "Firmware.txt".

@@ -1,0 +1,27 @@
+Getting PCBs:
+	http://oshpark.com/shared_projects/MRxpYtcv
+	http://oshpark.com/shared_projects/uNaH8UTn
+	Order a set of each of those. You'll need one of each board for each tagger you plan to add a display to.
+	OSHPark works in multiples of 3, so you'll be getting a multiple of 3 of each PCB you order.
+
+Getting parts:
+	http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=ccdcd1a988
+	http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=d15dc02c89
+	Order a set of each of those. You'll need one of these sets for each tagger you plan to add a display to.
+	Each of these sets is enough parts for one of the relevant PCBs.
+
+Other things:
+	You'll also need cable to go between the two boards.
+	http://www.digikey.com/product-search/en?x=0&y=0&lang=en&site=us&KeyWords=A1663R-25-ND
+	is a 25 foot length of cable that will work, and gives you enough cable to do at least 10 taggers.
+	You'll also need ends and a crimp tool, which can be found at your local hardware store.
+	You want a 6-position male RJ-11 connector(AKA Ye Olde Phone Cable Connector) and the crimp tool to go with it.
+	
+	You'll also need a few pieces of jumper wire. Your choice, but black and red are good.
+	
+	You will most likely need soldering wick (AKA desoldering braid, among other things).
+	
+	If you don't have a Zilog USB Smart Cable or other Zilog programming device, you will need one.
+	They can be found here: http://www.mouser.com/ProductDetail/ZiLOG/ZUSBSC00100ZACG/?qs=sGAEpiMZZMttdt6ek4ZYDN53GmIzCNq8
+
+Once everything comes in, move on to "Assembling.txt".
