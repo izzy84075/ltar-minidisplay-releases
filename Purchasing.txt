@@ -1,12 +1,12 @@
 Getting PCBs:
-	http://oshpark.com/shared_projects/pXbjj74W
+	http://oshpark.com/shared_projects/WgYqDjB5
 	http://oshpark.com/shared_projects/uNaH8UTn
 	Order a set of each of those. You'll need one of each board for each tagger you plan to add a display to.
 	OSHPark works in multiples of 3, so you'll be getting a multiple of 3 of each PCB you order.
 
 Getting parts:
 	http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=ccdcd1a988
-	http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=d15dc02c89
+	https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=64D94128E8
 	Order a set of each of those. You'll need one of these sets for each tagger you plan to add a display to.
 	Each of these sets is enough parts for one of the relevant PCBs.
 
