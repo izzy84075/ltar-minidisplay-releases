@@ -1,0 +1,35 @@
+So you've got an LTAR display now! I suppose you'd like to know how to use it?
+
+First things first, it will turn itself on and off. When you turn the tagger on, it detects that and turns on. When it first turns on, it will blink a single LED, just to let you know it's working. When you turn the tagger off, the display will stay on for about 15 seconds, and then turn off.
+
+While you set up the LTAR, be it joining a game, or changing the health/team settings for a grab-and-go game, that single LED will continue to blink.
+
+When the tagger starts it's countdown, the display will start showing how much time is left in the countdown! If you've used an LTX, the way it's shown should be very familiar to you. A blinking LED counts as 1, and a solid LED is 2.
+
+Once the game starts, the countdown display will disappear and one of the mode LEDs at the bottom will light up. This is "Health" mode. It shows how much health you have left. This is displayed as a rough percentage of how much health you started the game with. A blinking LED is 6.25%, and a solid LED is 12.5%. While it may not be an exact display, it will give you an idea of when you need to start worrying.
+
+If you press the button, the mode LED will change, and you'll be in Ammo mode. This shows you how much ammo is left in your clip. This is, once again, a percentage of how much ammo you started with. It will adapt automatically to any weapon, including but not limited to the pistol and machinegun built into the tagger.
+
+One more press of the button, and you're in Shields mode! This one's a bit different. The tagger's shield can only be used in 10-second bursts, so the display shows a percentage based on whether you have 10 seconds worth of shield remaining. While your shield is on, this will show you how much time you have left in this burst of shields. When you turn off your shields, it will show you how much time is left until the cooldown of the shields finishes. The cooldown is shown as a "climbing" percentage, starting at 0% and going up to 100%. Once the cooldown finishes, it goes back to the display of whether you have 10 seconds remaining or not.
+
+There is also a context-sensitive display, that will only be shown in certain types of hosted games. While not all of the features of this mode can be active at the same time, nothing in this mode overlaps between game modes.
+	If you're neutralized, the center two LEDs in the vertical bar will be blinking.
+	If you're in a zone game, you're neutralized, and the zone is hostile currently, the top and bottom LED of the vertical LED bar will be blinking.
+	Some taggers might be able to show when you gain a zone point, in which case the 2nd, 3rd, 6th and 7th LEDs of the vertical LED bar will be lit up.
+	If you're in a hunter/hunted game, when the hunting/hunted teams switch, the mode LEDs will show you which team you should be hunting by blinking the mode LED related to that team, and the team you should be avoiding is solid. The Health LED is Team 1, the Ammo LED is Team 2, and the Shield LED is Team 3.
+
+When a game ends, whether by you being tagged out, or the time running out, it will go to a "game over" mode that has a few submodes. All of these modes display information in roughly the same way. Like other numerical modes, a blinking LED is "1", and a solid LED is "2". The top three LEDs of the vertical LED bar show the tens place, and the bottom five show the ones place.
+	By default, the "game over" mode shows your player ID. The tens place represents the team, and the ones place represents your player number on that team.
+	Some taggers might be able to show your team and player rank, if in a hosted game. If available, you will be able to press the button and cycle through them. After the player ID, first comes your team rank, followed by your personal rank.
+
+This covers the basic operation of the LTAR display! There are a few extra modes, however.
+
+If you hold the button for a few seconds, all the LEDs will turn on, and the mode will reset to the Health mode. You're now in advanced mode! You can switch back to basic mode the same way.
+
+If you cycle through the modes again, you'll find a few extras, which light up multiple mode LEDs.
+
+The first Advanced mode, with the Health and Ammo LEDs lit up, is "Game time" mode. In a non-hosted game, this will count up, and show how long you've been playing! This is limited to 69 minutes, however. Past that, it won't show the tens place. In a hosted game, this will count /down/, and tell how many minutes are left in the game.
+
+The second Advanced mode, with the Ammo and Shield LEDs lit up, shows you who you were last tagged by. This is read the same way as your player ID in game over mode.
+
+The third and final Advanced mode, with all three mode LEDs lit up, is your player ID, and is the read the same way as your player ID in game over mode.
